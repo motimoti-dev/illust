@@ -1,14 +1,15 @@
 baseURL = 'https://motimoti-dev.web.app/'
 languageCode = 'ja-ja'
-title = 'My New Hugo Site'
+title = 'もち日記'
 theme = 'github-style'
 googleAnalytics = ""
+account = "motisan_info"
 
 [params]
   author = "もち"
   description = "もちです！絵を描いたり、動画を作ったり、Twitterをしたりして日々を過ごしています。このブログはイラスト依頼に関することや個人的に言いたいことだったり日々の日記を書いているものです。"
   github = "motimoti-dev"
-  twitter = "motisan_info"
+  twitter = ""
   url = "https://github.com/motimoti-dev"
   rss = true
   lastmod = true
