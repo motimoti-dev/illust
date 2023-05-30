@@ -13,6 +13,8 @@ googleAnalytics = ""
   rss = true
   lastmod = true
   location = "もち国"
+  userStatusEmoji = "🥦"
+  favicon = "/images/icon.png"
 
   [[params.links]]
     title = "Link"
