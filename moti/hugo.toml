@@ -1,4 +1,22 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://motimoti-dev.web.app/'
 languageCode = 'ja-ja'
 title = 'My New Hugo Site'
 theme = 'github-style'
+googleAnalytics = ""
+
+[params]
+  author = "もち"
+  description = "もちです！絵を描いたり、動画を作ったり、Twitterをしたりして日々を過ごしています。このブログはイラスト依頼に関することや個人的に言いたいことだったり日々の日記を書いているものです。"
+  github = "motimoti-dev"
+  twitter = "motisan_info"
+  url = "https://github.com/motimoti-dev"
+  rss = true
+  lastmod = true
+  location = "もち国"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://motisan.info"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
